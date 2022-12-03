@@ -4,8 +4,6 @@ const [, otherRandomCar] = cars;
 //Predict the output
 console.log(randomCar);
 console.log(otherRandomCar);
-
-// OUTPUT ==> 
 //            "Tesla"
 //            "Mercedes"
 
@@ -19,8 +17,7 @@ const { name: otherName } = employee;
 console.log(name);
 console.log(otherName);
 
-// OUTPUT ==> 
-//            "ReferenceError: name is not defined"
+//            "name is not defined"
 
 const person = {
 name: "Phil Smith",
@@ -33,7 +30,6 @@ const { password: hashedPassword } = person;
 console.log(password);
 console.log(hashedPassword);
 
-// OUTPUT ==> 
 //            12345
 //            undefined
 
@@ -45,7 +41,6 @@ const [, , , , , , , , third] = numbers;
 console.log(first == second);
 console.log(first == third);
 
-// OUTPUT ==> 
 //            false
 //            true
 
@@ -62,7 +57,6 @@ console.log(secondKey);
 console.log(secondKey[0]);
 console.log(willThisWork);
 
-// OUTPUT ==> 
 //            value            
 //            [1,5,1,8,3,3]
 //            1
